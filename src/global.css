@@ -1,0 +1,50 @@
+@import url('./pages/hall/hall.css');
+@import url('./pages/home/home.css');
+@import url('./pages/kitchen/kitchen.css');
+
+#root {
+  display: flex;
+}
+
+body,
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: #024764;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+body>footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 99%;
+  padding: 0.5% 0;
+  background-color: #2BADCB;
+  color: #010600;
+  border: #AB1C18 solid 3px;
+  border-radius: 5px;
+  justify-content: center;
+  font-size: 18px;
+  font-family:serif;
+}
+
+.colorfooter {
+  color: #010600
+  ;
+}
+
+.btn {
+  background-color: #2BADCB;
+  color: #010600;
+  border: #AB1C18 solid 3px;
+}
