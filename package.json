@@ -23,6 +23,6 @@
     "serve": "^13.0.2"
   },
   "dependencies": {
-    "firebase": "^9.8.1"
+    "firebase": "^9.8.3"
   }
 }
